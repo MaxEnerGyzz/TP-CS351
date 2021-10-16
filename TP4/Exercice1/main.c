@@ -8,5 +8,5 @@ int main(int argc, char* argv[]){
 
   lireDonnees(nomFichier, nombres);
   triABulles(nombres, NB_NOMBRES);
-  enregistrerDonnes("nombres_ranges.txt", nombres, NB_NOMBRES);
+  enregistrerDonnes(argv[2], nombres, NB_NOMBRES);
 }
